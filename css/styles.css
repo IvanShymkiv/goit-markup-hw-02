@@ -48,8 +48,7 @@
 }
 
 .link:hover, .current,
-.link:focus,
-.address-link:hover {
+.link:focus, .address-link:hover {
   color: var(--accent-txt-cl);
 }
 
