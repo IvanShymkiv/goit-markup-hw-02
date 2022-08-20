@@ -47,8 +47,8 @@
   color: var(--light-txt-cl);
 }
 
-.link:hover,
-.address-link:hover .link:focus,
+.link:hover, .current,
+.link:focus,
 .address-link:hover {
   color: var(--accent-txt-cl);
 }
