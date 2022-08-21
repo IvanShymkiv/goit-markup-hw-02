@@ -1,7 +1,7 @@
 :root {
   /* Fonts */
-  --main-font: 'roboto', 'Open Sans', sans-serif;
-  --secondary-font: 'raleway', sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 
   /* Text colors */
   --main-txt-cl: #212121;
@@ -20,7 +20,7 @@
 }
 
 /* reset */
-.link {
+.link, .address-link{
   text-decoration: none;
 }
 .list {
@@ -181,7 +181,7 @@
 
 .footer {
   background-color: #2f303a;
-}
+ }
 
 .footer,
 .address {
@@ -220,10 +220,16 @@
     
     cursor: pointer;
 }
+.filtrs-btn:hover, .filtrs-btn:focus {
+  color: var(--other-txt-cl);
+  background-color: var(--accent-txt-cl);
+}
 
   .filtrs-btn:active {
-    color: #2196F3;
+    color: var(--accent-txt-cl);
   }
+
+
 
   /*
     |============================
@@ -239,6 +245,7 @@
   }
 
   .project-name {
+    color: var(--main-txt-cl);
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36 / 18);
